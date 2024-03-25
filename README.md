@@ -8,3 +8,9 @@ In this project, the prompting template was written such that based on the input
 
 Ofcourse, recommendations for a GPT translation application to have optimum performance in comparison to machine translators depend on proper tuning. In the case of parameter tuning for this application, a low to medium value for the parameters 'Temperature' and 'Top_p' nucleus sampling are to be preferred.
 The above range of values ensures, for this use case specifically, more predictable and accurate translations with less probability of creativity and drift out of relevance boundaries of the translations.
+
+Preferred: 
+
+$Temperature < 0.5$
+
+$Top$ _ $p < 0.5$
